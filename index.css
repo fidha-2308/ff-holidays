@@ -1,0 +1,161 @@
+*{
+font-family: "Quicksand", sans-serif;
+margin: 0px;
+padding: 0px;
+}
+.nav-item:hover a{
+    color: rgb(36, 156, 231);
+}
+:root{
+   --x : rgb(36, 156, 231);  
+}
+#main{
+    background-image: url(https://wallpapersok.com/images/hd/aerial-clouds-aesthetic-light-blue-xu77zor2o7ihwcqp.jpg);
+    width: 100%;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#bg{
+    background-color: rgba(0, 0, 0, 0.454);
+    width: 100%;}
+
+    @media(max-width:850px){
+        #main{
+            background-position: bottom;
+        }
+        .welcome h1{
+            font-size: 20px;
+        }
+       
+    }
+    .book{
+        background-image: url(https://wallpapersok.com/images/hd/aerial-clouds-aesthetic-light-blue-xu77zor2o7ihwcqp.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: var(--x);
+       
+    }
+   
+.welcome{
+   color: white;
+    font-weight: 400;
+}
+.welcome h3{
+    font-size: 70px;
+    padding-top: 20%;
+}
+.welcome h1{
+    font-size: 50px;
+}
+
+.welcome p{
+    text-align: justify;
+    color: white;
+}
+.services{
+    text-align: center;
+    justify-content: center;
+
+}
+.item1{
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    height: 400px;
+    width: 100%;
+   
+}
+
+.item1 h1{
+    position: absolute;
+    justify-content: center;
+    border: black;
+    cursor: pointer;
+   
+}
+.item1 h1:hover{
+    border: white solid 1px;
+}
+.item1 img{
+    transition: all 2s ease;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.item1:hover{
+    transform: scale(0.9);
+   
+}
+.beach{
+    background-color: rgba(175, 211, 226, 0.719);
+    cursor: pointer;
+}
+.beach:hover{
+    background-color: rgb(155, 210, 237);
+}
+.zoom-img {
+    width: 300px;
+    height:auto;
+    overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  }
+ 
+  .zoom-img  img {
+    width: 100%;
+    transition: all .3s ease-in-out;
+    
+  }
+  
+  .zoom-img img:hover   {
+    transform: scale(1.2);
+  }
+  .range{
+    position: absolute;
+    bottom: 0%;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+  }
+ .cust:hover{background-color: gray;
+    color: white;
+
+ }
+ .line{
+    width: 100%;
+  height: 1px;
+    align-items: center;
+    justify-content: center;
+ }
+ .corp li{
+    list-style: none;
+ }
+ .line1{
+    height: 100%;
+    width: 1px;
+ }
+ .follow p{
+    margin-left: 30px;
+ }
+ .footer li{
+    list-style: none;
+    
+ }
+ .footer li a{
+    color: black;
+    text-decoration: none;
+ }
+@media(max-width:700px){
+    #footer{
+        font-size: 8px;
+    }
+}
+.footer li a:hover{
+    text-decoration: underline;
+}

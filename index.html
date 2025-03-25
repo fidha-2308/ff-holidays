@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <!-- css -->
+     <link rel="stylesheet" href="./travel.css">
+     <!-- fontawesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!-- navbar -->
+  
+      
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid ">
+      
+        <img src="./media/download.png" alt="no img" width="100px">
+        <a class="navbar-brand text-primary" href="#">FF Holidays</a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-5 ">
+          <li class="nav-item">
+            <a class="nav-link" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">TOUR PACKAGES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FLIGHT BOOKING</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">HOTEL & RESORT
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">GALLERY</a>
+          </li>
+          
+           
+         
+        </ul>
+        
+    </div>
+    </div>
+  </nav>
+         <!-- book area -->
+         <ul class="nav justify-content-center fs-3  px-1">
+          <i class="fa-solid fa-plane mt-3" style="color: #74C0FC;"></i>
+          <li class="nav-item">
+            <a class="nav-link active text-secondary" aria-current="page" href="#">Flights</a>
+          </li>
+          <i class="fa-solid fa-hotel mt-3" style="color: #74C0FC;"></i>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#">Hotels</a>
+          </li>
+          <i class="fa-solid fa-train mt-3" style="color: #74C0FC;"></i>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#">Trains</a>
+          </li>
+          <i class="fa-solid fa-bus-simple mt-3" style="color: #74C0FC;"></i>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#">Bus</a>
+          </li>
+          <i class="fa-solid fa-taxi mt-3" style="color: #74C0FC;"></i>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#">Cabs</a>
+          </li>
+          <i class="fa-solid fa-umbrella-beach mt-3" style="color: #74C0FC;"></i>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#">Holidays</a>
+          </li>
+        </ul>
+        <!-- booking -->
+        <div class="bookinghead">
+          <h1 class="fs-2 text-center mt-5 text-secondary">Domestic and International Flights</h1>
+        </div>
+        <div class="book  rounded-2 p-">
+          <div class="option d-flex pt-3">
+            <div class="booking px-2  rounded-4 ms-2">
+              <input type="radio" name="" id=""> One-Way
+            </div>
+            <div class="booking px-2 rounded-4 ms-2">
+              <input type="radio" name="" id=""> Round Trip
+            </div>
+            <div class="booking px-2 rounded-4 ms-2">
+              <input type="radio" name="" id=""> Multi-City
+            </div>
+          </div>
+          <div class="enter d-flex">
+            <div class="details">
+              <h6 class="mt-2 ms-1">From</h6>
+              <input type="text" placeholder="Enter city or airport" class="p-2 ms-1 rounded border border-light">
+            </div>
+            <div class="details">
+              <h6 class="mt-2 ms-1">To</h6>
+              <input type="text" placeholder="Enter city or airport" class="p-2 ms-1 rounded border border-light">
+            </div> 
+          </div>
+          <br>
+          <div class="details2 d-flex pb-4">
+            <div class="details">
+              <h6 class="mt-2 ms-1">Departure</h6>
+              <input type="date" placeholder="" class="p-2 ms-1 rounded border border-light">
+            </div> 
+            <div class="details">
+              <h6 class="mt-2 ms-1">Return</h6>
+              <input type="date" placeholder="" class="p-2 ms-1 rounded border border-light">
+            </div> 
+          </div>
+          
+        </div>
+        
+          <!-- welcome -->
+          <div id="main">
+            <div id="bg">
+          <div class="welcome ms-5 fs-1 p-10 ">
+          
+          <div class="heading align-items-center justify-content-center d-block">
+            <h3 class="me-5">Plan your best</h3>
+            <h1 class="">Travelling</h1>
+          </div>
+          <p class=" fs-5 mt-5 me-5 mb-2 pb-5">
+            Welcome to FF Holidays, where each journey is a tapestry of vivid memories and dreams come to life. Our passion is to weave your travel aspirations into breathtaking realities, crafting escapes that resonate with wonder and joy.
+          </p>
+           
+          
+           </div>
+    </div>
+   </div>
+
+   <div id="packages" >
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-8">
+         
+            <div class="item1 text-center">
+              <h1 class= "fs-3 text-light ms-4 mt-3 rounded-2 p-2">India Tour Packages</h1>
+              <img src="https://images.unsplash.com/photo-1576487248805-cf45f6bcc67f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aW5kaWElMjB0b3VyaXNtfGVufDB8fDB8fHww" alt="" class="rounded align-items-center" width="100%" height="400px">    
+            </div>
+         </div>
+        
+        <div class="col-md-4">
+         
+            <div class="item1 text-center">
+              <h1 class= "fs-3 text-light ms-2 mt-3 rounded-2 p-2">International Tour Packages</h1>
+              <img src="https://images.unsplash.com/photo-1523059623039-a9ed027e7fad?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3lkbmV5JTIwb3BlcmElMjBob3VzZXxlbnwwfHwwfHx8MA%3D%3D" alt="" class="rounded align-items-center" width="100%" height="400px">    
+            </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid mt-3">
+      <div class="row">
+        <div class="col-md-4">
+         
+            <div class="item1 text-center">
+              <h1 class= "fs-3 text-light ms-2 mt-3 rounded-2 p-2">International Honeymoon Packages</h1>
+              <img src="https://www.shikhar.com/images/tours/honeymoon-in-dubai-intro.jpg" alt="" class="rounded align-items-center" width="100%" height="400px">    
+            </div>
+         
+         
+        </div>
+        <div class="col-md-4">
+          
+            <div class="item1 text-center">
+              <h1 class= "fs-3 text-light ms-2 mt-3 rounded-2 p-2">Europe Tour Packages</h1>
+              <img src="https://wallpapercat.com/w/full/9/b/5/1446522-1920x1200-desktop-hd-europe-wallpaper-photo.jpg" width="100%" height="400px" class="rounded">    
+            </div>
+         
+         
+        </div>
+        <div class="col-md-4">
+            <div class="item1 text-center">
+              <h1 class= "fs-3 text-light ms-2 mt-3 rounded-2 p-2">Educational Tour Packages</h1>
+              <img src="https://media.licdn.com/dms/image/v2/D4D12AQGDHArysV0G_g/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1691604802937?e=2147483647&v=beta&t=2bpInIzqNPDLQUuL34gEoulvpsVWIGnQEBMk7CMRG3E" alt="" class="rounded align-items-center" width="100%" height="400px">    
+            
+         </div> 
+         
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    <!-- theme -->
+    <div class="themehead mt-5">
+      <h1 class="ms-2">Explore Holidays By Theme</h1>
+      <p class="ms-2">Find your perfect getaway, tailored to your interests.</p>
+     </div>
+     <div class="container-fluid py-3">
+      <div class="row">
+        <div class="col-md">
+          
+            <div class="beach text-center rounded-5 border border-primary mt-1">
+              <i class="fa-solid fa-umbrella-beach fa-2x mt-2"></i>
+              <h2 class="fs-5">Beach</h2>
+              <p>Explore Now</p>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="beach text-center rounded-5 border border-primary mt-1">
+              <i class="fa-solid fa-people-group fa-2x mt-2"></i>
+              <h2 class="fs-5">Family Retreat</h2>
+              <p>Explore Now</p>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="beach text-center rounded-5 border border-primary mt-1">
+              <i class="fa-solid fa-gopuram fa-2x mt-2"></i>
+              <h2 class="fs-5">Pilgrimage</h2>
+              <p>Explore Now</p>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="beach text-center rounded-5 border border-primary mt-1">
+              <i class="fa-regular fa-gem fa-2x mt-2"></i>
+              <h2 class="fs-5">Luxury</h2>
+              <p>Explore Now</p>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="beach text-center rounded-5 border border-primary mt-1">
+              <i class="fa-solid fa-person-hiking fa-2x mt-2"></i>
+              <h2 class="fs-5">Adventure</h2>
+              <p>Explore Now</p>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="beach text-center rounded-5 border border-primary mt-1">
+              <i class="fa-solid fa-city fa-2x mt-2"></i>
+              <h2 class="fs-5">Weekends</h2>
+              <p>Explore Now</p>
+            </div>
+          
+        </div>
+      </div>
+     </div>
+     <!-- destinations -->
+     <div class="dest-head mt-3 ms-3 ms-4">
+      <h1>Enthralling International Destinations</h1>
+      <p>Embark on an extraordinary journey to the world's finest destinations, where unforgettable experiences await at every turn</p>
+    </div>
+    <div class="dest-dets ms-3">
+      <div class="container-fluid ">
+        <div class="row">
+          <div class="col-md-3 mt-2">
+            <div class="zoom-img">
+              <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/542000/542607-singapore.jpg" alt="This zooms-in really well and smooth" height="250px">
+              <div class="range">
+              <h1 class="">Singapore</h1>
+              <h6>Range starts from INR 36999 Per Person</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mt-2">
+            <div class="zoom-img">
+              <img src="https://t4.ftcdn.net/jpg/00/98/44/37/360_F_98443741_G8VlrLoRGWUSA3cGgw36RqEiBkfVR9pX.jpg" alt="This zooms-in really well and smooth" height="250px">
+              <div class="range">
+              <h1 class="">Thailand</h1>
+              <h6>Range starts from INR 16999 Per Person</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mt-2">
+            <div class="zoom-img">
+              <img src="https://media.istockphoto.com/id/675172642/photo/pura-ulun-danu-bratan-temple-in-bali.jpg?b=1&s=612x612&w=0&k=20&c=hmJDr9ZZQTJ1KCW7DH1hTRCE8yn1lJ4j9l0cjRH5KBM=" height="250px">
+              <div class="range">
+              <h1 class="">Indonesia</h1>
+              <h6>Range starts from INR 19999 Per Person</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mt-2">
+            <div class="zoom-img">
+              <img src="https://images.unsplash.com/photo-1634148551170-d37d021e0cc9?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGR1YmFpfGVufDB8fDB8fHww" alt="This zooms-in really well and smooth" height="250px">
+              <div class="range">
+              <h1 class="">Dubai</h1>
+              <h6>Range starts from INR 24999 Per Person</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- plan -->
+<div class="plan d-flex mt-5 border border-secondary p-2 rounded-4 text-light bg-secondary m-3">
+  <i class="fa-solid fa-pencil fa-2x" style="color: #74C0FC;"></i>
+  <p class="ms-5">Plan your holiday today and enjoy amazing seasonal discounts!</p>
+  <button class=" cust ms-5 p-2 rounded border border-secondary">Customize my holiday</button>
+ </div>
+    <!-- gallery -->
+    <div class="gallery-head mt-5  ms-4">
+      <h1>Get Inspiration for your next trip</h1>
+    </div>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner mt-5">
+          <div class="carousel-item active">
+            <img src="https://plus.unsplash.com/premium_photo-1661916287718-edb15703cbaf?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGFvc3xlbnwwfHwwfHx8MA%3D%3D" class="d-block w-100" alt="no">
+            <div class="carousel-caption md-p-0 p-1">
+              <h1 class="">Laos</h1>
+              <p class="fw-bold">Vientiane. Luang Prabang. Savannakhet</p>
+              <p class="md:fw-bold md:fs-3 fs-5">Range Starts from. INR 55,000 per person</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://wallpapercat.com/w/full/e/f/1/35389-2560x1600-desktop-hd-china-wallpaper.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption md-p-0 p-1">
+              <h1 class="">China</h1>
+              <p class="fw-bold">Shanghai. Beijing. Xi An. Guangzhou</p>
+              <p class="md:fw-bold md:fs-3 fs-5">Range starts from INR 65,000 per person</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://wallpapercat.com/w/full/d/c/b/714358-3840x2160-desktop-4k-la-digue-seychelles-background-image.jpg" class="d-block w-100" alt="no image">
+          
+          <div class="carousel-caption md-p-0 p-1">
+            <h1 class="">Seychelles</h1>
+            <p class="fw-bold">Southeast of mainland Eastern Africa</p>
+            <p class="md:fw-bold md:fs-3 fs-5">Range starts from. INR 98000 per person</p>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+          
+    <!-- day/night -->
+     <div class="budgetfriendly mt-5 ms-3">
+      <h1 >Budget friendly packages</h1>
+     </div>
+     <div class="container-fluid mt-5">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card" style="width: 18rem; border: white;">
+            <img src="https://t4.ftcdn.net/jpg/02/57/91/21/360_F_257912197_ySuBhefKYPQIZNa3xeGiObLpgYBnH9U5.jpg" class="card-img-top rounded" alt="...">
+            <div class="card-body">
+              <div class="text-center fw-bold fs-1 text-secondary">MANALI</div>
+              <div class="border border-secondary p-1 rounded text-center w-60 text-light bg-secondary mt-2">3 nights / 4 days</div>
+              <div class="d-flex justify-content-center"><p class="card-text fw-bolder">₹4945</p> <span>/person</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card" style="width: 18rem;border: white;">
+            <img src="https://t4.ftcdn.net/jpg/03/20/00/21/360_F_320002102_Mtgit9EEEutS4yq3A7kl2pGb4VKO6IQI.jpg" class="card-img-top rounded" alt="..." >
+            <div class="card-body">
+              <div class="text-center fw-bold fs-1 text-secondary">GOA</div>
+              <div class="border border-secondary p-1 rounded text-center w-60 text-light bg-secondary mt-2">3 nights / 4 days</div>
+              <div class="d-flex justify-content-center"><p class="card-text fw-bolder">₹10990</p> <span>/person</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 ">
+          <div class="card" style="width: 18rem;border: white;">
+            <img src="https://thumbs.dreamstime.com/b/road-next-to-dal-lake-winter-srinagar-kashmir-india-srinagar-kashmir-india-january-road-next-to-dal-lake-winter-224407444.jpg" class="card-img-top rounded" alt="...">
+            <div class="card-body">
+              <div class="text-center fw-bold fs-1 text-secondary">KASHMIR</div>
+              <div class="border border-secondary p-1 rounded text-center w-60 text-light bg-secondary MT-2">3 nights / 4 days</div>
+              <div class="d-flex justify-content-center"><p class="card-text fw-bolder">₹7890</p> <span>/person</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card" style="width: 18rem;border: white;">
+            <img src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8a2VyYWxhfGVufDB8fDB8fHww" class="card-img-top rounded" alt="..." height="194px">
+            <div class="card-body">
+              <div class="text-center fw-bold fs-1 text-secondary">KERALA</div>
+              <div class="border border-secondary p-1 rounded text-center w-60 text-light bg-secondary">2 nights / 3 days</div>
+              <div class="d-flex justify-content-center"><p class="card-text fw-bolder">₹11090</p> <span>/person</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+     <!-- footer -->
+     <div class="container-fluid text-light bg-secondary ">
+      <div class="row">
+        <div class="col-md-4 p-5">
+          <h1 class="text-center">Corporate Office</h1>
+          <div class="line  bg-secondary mt-4 border border-light " ></div>
+          <ul class="mt-4 corp text-center">
+            <li>FF Holidays Pvt LTD,</li>
+            <li>Novel Tech Park</li>
+            <li>Opposite to 1 MG Mall,</li>
+            <li>MG Road, Bangalore – 560042</li>
+            <li>Karnataka, India.</li>
+          </ul>
+        </div>
+        <div class="col-md-4 p-5 ">
+          <div class="align-items-center text-center">
+            <h1 class="text-center">Head Office</h1>
+            <div class="line  bg-secondary mt-4 border border-light " ></div>
+          </div>
+          <ul class="mt-4 corp text-center">
+            <li>FF Holidays Pvt LTD,</li>
+            <li>No.1, Gemini Parsn,</li>
+            <li>Kodambakkam High Road,</li>
+            <li>Nungambakkam, Chennai – 600006</li>
+            <li>Tamilnadu, India.</li>
+          </ul>
+        </div>
+        <div class="col-md-4 p-5">
+          <h1 class="text-center">Our Branches</h1>
+          <div class="line  bg-secondary mt-4 border border-light " ></div>
+          <ul class="mt-4 corp text-center">
+            <li>Mumbai</li>
+            <li>Hyderabad</li>
+            <li>Bangalore</li>
+            <li>Chennai</li>
+            <li>Kochi</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+     <div class="container-fluid text-light bg-secondary ">
+      <div class="row">
+        <div class="col-md-4 p-5 d-flex">
+          <div class="line1  bg-secondary mt-4 border border-light " ></div>
+          <div class="mt-5 ms-5">
+            <p class="text-center">Call Us</p>
+            <h1 class="fs-2 text-center">+91 9940882200</h1>
+          </div>
+         
+         
+        </div>
+        <div class="col-md-4 p-5 d-flex">
+          <div class="line1  bg-secondary mt-4 border border-light " ></div>
+          <div class="mt-5 ms-5">
+            <p class="text-center">Email Us</p>
+            <h1 class="fs-2 text-center">mail@ffholidays.in</h1>
+          </div>
+            
+          </div>
+         
+       
+        
+        <div class="col-md-4 p-5 d-flex">
+          <div class="line1 bg-secondary mt-4 border border-light " ></div>
+          <div class="follow mt-5 ms-5 ">
+            <p class="text-center">Follow Us</p>
+            <div class="icons ms-4">
+              <i class="fa-brands fa-facebook px-1 fa-2x"></i>
+              <i class="fa-brands fa-instagram px-1 fa-2x"></i>
+              <i class="fa-brands fa-linkedin px-1 fa-2x"></i>
+              <i class="fa-brands fa-youtube px-1 fa-2x"></i>
+            </div>
+          </div>
+          
+          
+        </div>
+      </div>
+      </div>
+      <div class="p-4 w-100 justify-content-center " id="footer">
+        <p class="text-center">Copyright © 2025 by FF Holidays Pvt Ltd. All Rights Reserved.</p>
+        <div class="footer-dets">
+          <ul class="d-flex justify-content-center footer">
+            <li class="me-3"><a href="">Home</a></li>
+            <li class="me-3"><a href="">Contact Us</a></li>
+            <li class="me-3"><a href="">About Us</a></li>
+            <li class="me-3"><a href="">Gallery</a></li>
+            <li class="me-3"><a href="">Blogs</a></li>
+            <li class="me-3"><a href="">More Links</a></li>
+          </ul>
+        </div>
+      </div>
+
+</body>
+</html>
